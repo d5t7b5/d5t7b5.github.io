@@ -11,15 +11,52 @@
         <h1>Tableau Visualization Article</h1>
     </header>
     <main>
-        <ol>
-            <li></li>
-            <li>Lista de Comarcas</li>
-                <ol>
-                    <li>Alt Camp</li>
-                    <li>Alt Empordà</li>
-                </ol>
-            <li>Alt Camp</li>
-        </ol>
+            <details>
+                <summary>Lista de Comarcas</summary>
+                <ul>
+                    <li><a href="#AltCamp">Alt Camp</a></li>
+                    <li><a href="#AltEmporda">Alt Empordà</a></li>
+                    <li><a href="#AltPenedes">Alt Penedès</a></li>
+                    <li><a href="#AltUrgell">Alt Urgell</a></li>
+                    <li><a href="#AltaRibagorca">Alta Ribagorça</a></li>
+                    <li><a href="#Anoia">Anoia</a></li>
+                    <li><a href="#Bages">Bages</a></li>
+                    <li><a href="#BaixCamp">Baix Camp</a></li>
+                    <li><a href="#BaixEbre">Baix Ebre</a></li>
+                    <li><a href="#BaixEmporda">Baix Empordà</a></li>
+                    <li><a href="#BaixLlobregat">Baix Llobregat</a></li>
+                    <li><a href="#BaixPenedes">Baix Penedès</a></li>
+                    <li><a href="#Barcelones">Barcelonès</a></li>
+                    <li><a href="#Bergueda">Berguedà</a></li>
+                    <li><a href="#Cerdanya">Cerdanya</a></li>
+                    <li><a href="#ConcaDeBarbera">Conca de Barberà</a></li>
+                    <li><a href="#Garraf">Garraf</a></li>
+                    <li><a href="#Garrigues">Garrigues</a></li>
+                    <li><a href="#Garrotxa">Garrotxa</a></li>
+                    <li><a href="#Girones">Gironès</a></li>
+                    <li><a href="#Maresme">Maresme</a></li>
+                    <li><a href="#Moianes">Moianès</a></li>
+                    <li><a href="#Montsia">Montsià</a></li>
+                    <li><a href="#Noguera">Noguera</a></li>
+                    <li><a href="#Osona">Osona</a></li>
+                    <li><a href="#PallarsJussa">Pallars Jussà</a></li>
+                    <li><a href="#PallarsSobira">Pallars Sobirà</a></li>
+                    <li><a href="#PlaDeLEstany">Pla de l'Estany</a></li>
+                    <li><a href="#PlaDUrgell">Pla d'Urgell</a></li>
+                    <li><a href="#Priorat">Priorat</a></li>
+                    <li><a href="#RiberaDEbre">Ribera d'Ebre</a></li>
+                    <li><a href="#Ripolles">Ripollès</a></li>
+                    <li><a href="#Segarra">Segarra</a></li>
+                    <li><a href="#Segrià">Segrià</a></li>
+                    <li><a href="#Selva">Selva</a></li>
+                    <li><a href="#Solsones">Solsonès</a></li>
+                    <li><a href="#Tarragones">Tarragonès</a></li>
+                    <li><a href="#TerraAlta">Terra Alta</a></li>
+                    <li><a href="#Urgell">Urgell</a></li>
+                    <li><a href="#VallesOccidental">Vallès Occidental</a></li>
+                    <li><a href="#VallesOriental">Vallès Oriental</a></li>
+                </ul>
+            </details>
 
         <section id="introduction">
             <h2>Introduction</h2>
@@ -28,14 +65,20 @@
         <section id="charts">
             <h2>Charts</h2>
             <div id="tableauViz1"></div>
-            <div id="tableauViz2"></div>
+            <script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/16322321bafb96d62/views/bigdata-cotxes/Sheet1' width='1200' height='502' hide-tabs toolbar='bottom' ></tableau-viz>
+
+            <div id="tableauViz2">
+                <script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/16322321bafb96d62/views/bigdata-cotxes/Be' width='1200' height='542' hide-tabs toolbar='bottom' ></tableau-viz>
+            </div>
+
+            
             <!-- Add more divs as needed for additional Tableau charts -->
         </section>
     </main>
-    <footer>
+    <!-- <footer>
         <p>&copy; 2024 Tableau Article</p>
-    </footer>
-    <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-    <script src="scripts.js"></script>
+    </footer> -->
+    <!-- <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script> -->
+    <!-- <script src="scripts.js"></script> -->
 </body>
 </html>
