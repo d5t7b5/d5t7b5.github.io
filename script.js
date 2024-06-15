@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var vizUrl1 = "https://public.tableau.com/views/YOUR_VIZ_URL_1";
-    var vizUrl2 = "https://public.tableau.com/views/YOUR_VIZ_URL_2";
+    var vizUrl2 = "https://prod-uk-a.online.tableau.com/t/16322321bafb96d62/views/bigdata-cotxes/Be";
     // Add more URLs as needed for additional Tableau charts
 
     var vizOptions = {
