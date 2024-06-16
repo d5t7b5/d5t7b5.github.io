@@ -1,20 +1,19 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var vizUrl1 = "https://public.tableau.com/views/YOUR_VIZ_URL_1";
-    var vizUrl2 = "https://prod-uk-a.online.tableau.com/t/16322321bafb96d62/views/bigdata-cotxes/Be";
-    // Add more URLs as needed for additional Tableau charts
+function showImage() {
+    var button = document.getElementById('showImageButton');
+    var img = document.getElementById('myImage');
+    button.style.display = 'none';
+    img.style.display = 'block';
+}
 
-    var vizOptions = {
-        width: "100%",
-        height: "600px",
-        hideTabs: true,
-        hideToolbar: true
-    };
+function showButton() {
+    var button = document.getElementById('showImageButton');
+    var img = document.getElementById('myImage');
+    img.style.display = 'none';
+    button.style.display = 'block';
+}
 
-    var vizContainer1 = document.getElementById("tableauViz1");
-    var vizContainer2 = document.getElementById("tableauViz2");
-    // Add more containers as needed for additional Tableau charts
-
-    var viz1 = new tableau.Viz(vizContainer1, vizUrl1, vizOptions);
-    var viz2 = new tableau.Viz(vizContainer2, vizUrl2, vizOptions);
-    // Initialize more viz objects as needed for additional Tableau charts
+document.getElementById('fallingObject') .addEventListener('click', function(){
+    this.style.animation = 'none'; /* Detiene la animación actual */
+    void this.offsetWidth; /* Activa un reflow para reiniciar la animación */
+    this.style.animation = 'fallAndRise 4s forwards'; /* Reinicia la animación */
 });
