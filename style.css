@@ -118,9 +118,9 @@ h1{
     background-image: radial-gradient(rgb(0, 131, 7), rgb(255, 166, 0));
 }
 
-@media (max-width: 450px) {
+@media (max-width: 576px) {
     .container {
-        top: 75%;
+        top: 95%;
         width: 100%;
         margin-top: 40px;
         left: 0;
@@ -167,7 +167,7 @@ h1{
 
 @media (max-width: 424px) {
     .container {
-        top: 80%;
+        top: 95%;
         width: 100%;
         margin-top: 40px;
         left: 0;
@@ -204,10 +204,5 @@ h1{
     margin:0;
     width:auto;
     border:0; 
-    }
-
-    /* .container, .columna3{
-        width: 100%;
-        float: none; */
-    }
-
+    } 
+}
