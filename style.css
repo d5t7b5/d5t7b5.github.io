@@ -118,11 +118,11 @@ h1{
     background-image: radial-gradient(rgb(0, 131, 7), rgb(255, 166, 0));
 }
 
-@media (max-width: 850px) {
+@media (max-width: 450px) {
     .container {
-        top: 83%;
-        margin-top: 40px;
+        top: 75%;
         width: 100%;
+        margin-top: 40px;
         left: 0;
         -webkit-background-origin: padding-box;
         background-origin: padding-box;
@@ -145,7 +145,12 @@ h1{
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    .columna1{
+        font-size: medium;
+    }
+    .columna2{
+        font-size: medium;
+    }
     .columna3{
     padding: 10px;
     float: none;
@@ -153,4 +158,56 @@ h1{
     width:auto;
     border:0; 
     }
-}
+
+    /* .container, .columna3{
+        width: 100%;
+        float: none; */
+    }
+
+
+@media (max-width: 424px) {
+    .container {
+        top: 73%;
+        width: 100%;
+        margin-top: 40px;
+        left: 0;
+        -webkit-background-origin: padding-box;
+        background-origin: padding-box;
+        -webkit-background-clip: border-box;
+        background-clip: border-box;
+        -webkit-background-size: auto auto;
+        background-size: auto auto;
+        background: rgba(255, 123, 0, 0.849);
+        box-shadow: inset 0 0 70px 20px rgb(132, 161, 132);
+        text-align: center;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor {
+        margin: 3cap;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .columna1{
+        font-size: small;
+    }
+    .columna2{
+        font-size: small;
+    }
+    .columna3{
+    padding: 10px;
+    float: none;
+    margin:0;
+    width:auto;
+    border:0; 
+    }
+
+    /* .container, .columna3{
+        width: 100%;
+        float: none; */
+    }
+
